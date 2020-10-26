@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
 
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
 }
@@ -46,7 +46,7 @@ p {
   position: relative;
   overflow: hidden;
 
-  background: #000 url("../img/bg.jpg") center no-repeat;
+  background: #000 url('../img/bg.jpg') center no-repeat;
   background-size: cover;
 }
 
@@ -101,11 +101,11 @@ p {
 }
 
 .header-nav-link.active:after {
-  content: "";
+  content: '';
   width: 100%;
   height: 2px;
 
-  background-color: #fff;
+  background-color: rgb(228, 241, 43);
 
   position: absolute;
   left: 0;
@@ -226,7 +226,7 @@ p {
 }
 
 .contacts-link:last-child:after {
-  content: "";
+  content: '';
   display: block;
   width: 80px;
   height: 2px;
